@@ -1,0 +1,11 @@
+{
+  "github_login" : {
+    "username":"",
+    "password":""
+  },
+
+  "github_auth_app" : {
+    "username":"",
+    "password":""
+  }
+}

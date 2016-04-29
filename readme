@@ -1,0 +1,18 @@
+jenkins: yTjs8_0iu
+
+### Protractor API
+http://angular.github.io/protractor/#/api
+
+### Run selenium server
+$ webdriver-manager start
+
+### run tests
+$ protractor conf.js
+
+### Update NodeJS
+1) Clear NPM's cache:
+    $ sudo npm cache clean -f
+2) Install a little helper called 'n'
+    $ sudo npm install -g n
+3) Install latest stable NodeJS version
+    $ sudo n stable

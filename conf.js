@@ -18,25 +18,24 @@ exports.config = {
         'browserName': 'chrome'
     },
 
-    specs: ['codefresh_spec.js'],
+    specs: ['new_feature_public.js'],
 
     jasmineNodeOpts: {
-        showColors: true // Use colors in the command line report.
+        showColors: true
     },
 
-    // Setup the report before any tests start
     beforeLaunch: function() {
         return new Promise(function(resolve) {
             reporter.beforeLaunch(resolve);
         });
     },
 
-    // Assign the test reporter to each running instance
     onPrepare: function() {
         jasmine.getEnv().addReporter(reporter);
+        browser.manage().timeouts().pageLoadTimeout(30000);
+        browser.manage().timeouts().implicitlyWait(10000);
     },
 
-    // Close the report after all tests finish
     afterLaunch: function(exitCode) {
         return new Promise(function(resolve) {
             reporter.afterLaunch(resolve.bind(this, exitCode));

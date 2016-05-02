@@ -13,8 +13,8 @@ var writeScreenShot = function (data, folder, filename) {
 
 var takeScreenshot = function (filename, folder) {
     mkdirp(folder, function (err) {
-        if (err) console.error(err);
-        else console.log('folder created!')
+        if (err)
+            console.error(err);
     });
     browser.driver.takeScreenshot().then(function (png) {
         writeScreenShot(png, folder, filename);

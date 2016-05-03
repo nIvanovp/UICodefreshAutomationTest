@@ -2,6 +2,9 @@
 
 ## Build
 ```
+npm install -g protractor
+webdriver-manager update
+cd UICodefreshAutomationTest/
 npm install
 ```
 

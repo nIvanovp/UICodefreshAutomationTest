@@ -1,6 +1,17 @@
 {
   "accounts":[
     {
+      "accountName":"codefresh-inc",
+      "repositories":[
+        {
+          "repoOwner": "codefresh-io",
+          "repoName": "buildpacks",
+          "status": 1
+        }
+      ]
+    },
+
+    {
       "accountName":"nikolai",
       "repositories":[
         {

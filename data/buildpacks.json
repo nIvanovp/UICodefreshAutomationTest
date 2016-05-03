@@ -1,0 +1,13 @@
+{
+  "accounts":[
+    {
+      "accountName":"codefresh-inc",
+      "repositories":[
+        {
+          "repoOwner": "codefresh-io",
+          "status": 1
+        }
+      ]
+    }
+  ]
+}

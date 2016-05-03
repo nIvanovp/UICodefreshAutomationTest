@@ -1,0 +1,25 @@
+{
+  "accounts":[
+    {
+      "accountName":"nikolai",
+      "repositories":[
+        {
+          "repoOwner": "nCodefresh",
+          "repoName": "docker-spring-boot",
+          "status": 1
+        }
+      ]
+    },
+
+    {
+      "accountName":"verchol_github",
+      "repositories":[
+        {
+          "repoOwner": "verchol",
+          "repoName": "angular-docker",
+          "status": 1
+        }
+      ]
+    }
+  ]
+}

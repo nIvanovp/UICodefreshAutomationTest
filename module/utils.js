@@ -22,7 +22,7 @@ var Constant = function () {
     this.XPATH_LOGOUT = '//a[@ui-sref="authLogout"]';
 
     this.XPATH_PUBLIC_BUILD = '//cf-public-build-item//div[contains(@class, "repo-build-item-container")]';
-
+    this.XPATH_PUBLIC_SINGLE_BUILD = '//div[@class="single-build"]';
 };
 
 module.exports.Constant = Constant;

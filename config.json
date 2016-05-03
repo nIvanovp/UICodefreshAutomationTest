@@ -7,31 +7,5 @@
   "github_auth_app" : {
     "username":"",
     "password":""
-  },
-
-  "accounts":[
-    {
-      "accountName":"nikolai",
-      "repositories":[
-        {
-          "repoOwner": "nCodefresh",
-          "repoName": "docker-spring-boot",
-          "buildid":"",
-          "status": 1
-        }
-      ]
-    },
-
-    {
-      "accountName":"verchol_github",
-      "repositories":[
-        {
-          "repoOwner": "verchol",
-          "repoName": "angular-docker",
-          "buildid":"",
-          "status": 1
-        }
-      ]
-    }
-  ]
+  }
 }
